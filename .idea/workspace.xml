@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b4d7fe81-4ea3-446a-a528-147bdda88382" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-sp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CashStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreditStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DebitStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PaymentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/OrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/PaymentStrategyTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LQRGeTkv6Pk1YDlytJWQCIJs5A" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.45060894",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.PaymentStrategyTest.mustInstanceOrder_andVerify_ifTotalIsCorrect_forDebitStrategy">
+    <configuration name="PaymentStrategy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="payment-sp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PaymentStrategy" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentStrategyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="payment-sp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PaymentStrategyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentStrategyTest.mustInstanceOrder_andVerify_ifTotalIsCorrect_forCreditStrategy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="payment-sp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PaymentStrategyTest" />
+      <option name="METHOD_NAME" value="mustInstanceOrder_andVerify_ifTotalIsCorrect_forCreditStrategy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentStrategyTest.mustInstanceOrder_andVerify_ifTotalIsCorrect_forDebitStrategy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="payment-sp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PaymentStrategyTest" />
+      <option name="METHOD_NAME" value="mustInstanceOrder_andVerify_ifTotalIsCorrect_forDebitStrategy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentStrategy.mustInstanceOrder_andVerify_ifTotalIsCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="payment-sp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PaymentStrategy" />
+      <option name="METHOD_NAME" value="mustInstanceOrder_andVerify_ifTotalIsCorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PaymentStrategyTest.mustInstanceOrder_andVerify_ifTotalIsCorrect_forDebitStrategy" />
+        <item itemvalue="JUnit.PaymentStrategyTest" />
+        <item itemvalue="JUnit.PaymentStrategyTest.mustInstanceOrder_andVerify_ifTotalIsCorrect_forCreditStrategy" />
+        <item itemvalue="JUnit.PaymentStrategy" />
+        <item itemvalue="JUnit.PaymentStrategy.mustInstanceOrder_andVerify_ifTotalIsCorrect" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4d7fe81-4ea3-446a-a528-147bdda88382" name="Changes" comment="" />
+      <created>1675801226342</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675801226342</updated>
+      <workItem from="1675801227420" duration="3766000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
