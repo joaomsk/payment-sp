@@ -29,7 +29,7 @@ public class Order {
     private double calculateTotal() {
         double total = 0;
         for (Items item : items) {
-            total += item.getQuantity() * item.getUnitPrice();
+            total += item.quantity() * item.unitPrice();
         }
         return total;
     }
