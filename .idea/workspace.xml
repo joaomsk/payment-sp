@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4d7fe81-4ea3-446a-a528-147bdda88382" name="Changes" comment="remove unused class Card.java">
-      <change beforePath="$PROJECT_DIR$/src/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Items.java" afterDir="false" />
+    <list default="true" id="b4d7fe81-4ea3-446a-a528-147bdda88382" name="Changes" comment="convert Items.java into a record">
+      <change afterPath="$PROJECT_DIR$/src/PaymentTypeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/OrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/PaymentStrategyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/PaymentStrategyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +66,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderTest.mustCreateAnInstance_of_Order" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="payment-sp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OrderTest" />
+      <option name="METHOD_NAME" value="mustCreateAnInstance_of_Order" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderTest.mustCreateAnOrder_and_validateIfTotalIsCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="payment-sp" />
       <option name="PACKAGE_NAME" value="" />
@@ -82,16 +95,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentStrategyTest.mustInstanceOrder_andVerify_ifTotalIsCorrect_forCreditStrategy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="payment-sp" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PaymentStrategyTest" />
-      <option name="METHOD_NAME" value="mustInstanceOrder_andVerify_ifTotalIsCorrect_forCreditStrategy" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PaymentStrategyTest.mustInstanceOrder_andVerify_ifTotalIsCorrect_forDebitStrategy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="payment-sp" />
       <option name="PACKAGE_NAME" value="" />
@@ -105,10 +108,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PaymentStrategyTest" />
+        <item itemvalue="JUnit.OrderTest.mustCreateAnInstance_of_Order" />
         <item itemvalue="JUnit.OrderTest.mustCreateAnOrder_and_validateIfTotalIsCorrect" />
         <item itemvalue="JUnit.OrderTest" />
         <item itemvalue="JUnit.PaymentStrategyTest.mustInstanceOrder_andVerify_ifTotalIsCorrect_forDebitStrategy" />
-        <item itemvalue="JUnit.PaymentStrategyTest.mustInstanceOrder_andVerify_ifTotalIsCorrect_forCreditStrategy" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +124,8 @@
       <option name="presentableId" value="Default" />
       <updated>1675801226342</updated>
       <workItem from="1675801227420" duration="3766000" />
-      <workItem from="1675824923047" duration="645000" />
+      <workItem from="1675824923047" duration="702000" />
+      <workItem from="1675919977063" duration="918000" />
     </task>
     <task id="LOCAL-00001" summary="remove unused class Card.java">
       <created>1675825066304</created>
@@ -130,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675825066304</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="convert Items.java into a record">
+      <created>1675825615380</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675825615380</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +149,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="remove unused class Card.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove unused class Card.java" />
+    <MESSAGE value="convert Items.java into a record" />
+    <option name="LAST_COMMIT_MESSAGE" value="convert Items.java into a record" />
   </component>
 </project>

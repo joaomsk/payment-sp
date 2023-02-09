@@ -11,7 +11,7 @@ public class OrderTest {
                 new Items("Item 1", 1, 10),
                 new Items("Item 2", 2, 20),
                 new Items("Item 3", 3, 30)
-        }, new CashStrategy());
+        }, PaymentTypeEnum.CASH);
 
         // Act
         double total = order.getTotal();
@@ -27,7 +27,7 @@ public class OrderTest {
                 new Items("Item 1", 1, 10),
                 new Items("Item 2", 2, 20),
                 new Items("Item 3", 3, 30)
-        }, new CashStrategy());
+        }, PaymentTypeEnum.CASH);
 
         // Act
         String name = order.getCustomer();

@@ -2,12 +2,14 @@ public class Order {
 
     private final String customer;
     private final Items[] items;
+    private final PaymentTypeEnum paymentType;
     private final double total;
 
-    public Order(String customer, Items[] items, PaymentStrategy paymentStrategy) {
+    public Order(String customer, Items[] items, PaymentTypeEnum paymentType) {
         this.customer = customer;
         this.items = items;
-        this.total = getPaymentStrategy(paymentStrategy);
+        this.paymentType = paymentType;
+        this.total = getPaymentStrategy(paymentType.getStrategy());
     }
 
     public String getCustomer() {
@@ -16,6 +18,10 @@ public class Order {
 
     public Items[] getItems() {
         return items;
+    }
+
+    public PaymentTypeEnum getPaymentType() {
+        return paymentType;
     }
 
     public double getTotal() {
